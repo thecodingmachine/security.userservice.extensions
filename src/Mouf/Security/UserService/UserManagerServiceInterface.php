@@ -11,9 +11,9 @@ interface UserManagerServiceInterface {
 	 * Creates or update the user $user.
 	 * The User ID (in database) is returned.
 	 * 
-	 * @param AdvancedUserInterface $user The user to save
+	 * @param \Hybrid_User_Profile $user The user to save
 	 * @return string The user ID
 	 */
-	public function saveUser(AdvancedUserInterface $user);
+	public function saveUser(\Hybrid_User_Profile $user);
 }
 ?>
